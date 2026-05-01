@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mapao V</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0d0d0d;
+    color: white;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 30px 15px;
+    border-bottom: 2px solid orange;
+}
+
+/* LOGO */
+.logo {
+    width: 90%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto 15px;
+    filter: brightness(1.2) contrast(1.1);
+}
+
+/* TITLE */
+header h1 {
+    color: orange;
+    margin: 5px 0;
+}
+
+/* SECTIONS */
+section {
+    padding: 25px 18px;
+    border-bottom: 1px solid #222;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+/* CARDS */
+.card {
+    background: #1a1a1a;
+    padding: 18px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+}
+
+/* IMAGE STYLE */
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* PRICE */
+.price {
+    color: orange;
+    font-size: 20px;
+    margin: 8px 0;
+}
+
+/* BUTTON */
+.btn {
+    background: orange;
+    color: black;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    border-top: 2px solid orange;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <img src="logo.jpg" class="logo">
+    <h1>Mapao V</h1>
+    <p>Creating the Ultimate Community for the Next Era</p>
+</header>
+
+<section>
+    <h2>About Us</h2>
+    <p>
+        Mapao V connects people with local professionals for real-world experience,
+        turning learning into action and building confidence through interaction.
+    </p>
+</section>
+
+<section>
+    <h2>What We Offer</h2>
+
+    <div class="card">
+        <h3>Mentorship</h3>
+        <p>Connect with professionals for real-world guidance.</p>
+    </div>
+
+    <div class="card">
+        <h3>Skill Learning</h3>
+        <p>Learn practical skills from local experts.</p>
+    </div>
+
+    <div class="card">
+        <h3>Hands-on Training</h3>
+        <p>Gain real experience through direct interaction.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Pricing</h2>
+
+    <div class="card">
+        <h3>Starter</h3>
+        <div class="price">₹199</div>
+        <p>Basic access</p>
+    </div>
+
+    <div class="card">
+        <h3>Pro</h3>
+        <div class="price">₹299</div>
+        <p>Mentorship + sessions</p>
+    </div>
+
+    <div class="card">
+        <h3>Premium</h3>
+        <div class="price">₹499</div>
+        <p>Full access</p>
+    </div>
+</section>
+
+<section>
+    <h2>Join Mapao V</h2>
+    <p>Be part of a community that grows together.</p>
+    <button class="btn">Join Now</button>
+</section>
+
+<footer>
+    <p>© 2026 Mapao V | Imphal</p>
+</footer>
+
+</body>
+</html>
